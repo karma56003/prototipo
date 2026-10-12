@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#196e54" />
+    <meta
+      name="description"
+      content="MesaVista: menús digitales con visualización 3D, realidad aumentada y pedidos por WhatsApp para restaurantes de Tarija."
+    />
+    <title>Menús 3D y AR para restaurantes | MesaVista</title>
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script type="module" src="js/landing.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-inner">
+        <a class="brand" href="index.html"
+          ><span class="brand-logo">✦</span> MesaVista
+          <span><small>GASTRONOMÍA DIGITAL</small></span></a
+        ><button
+          class="mobile-menu"
+          id="nav-toggle"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          ☰ Menú
+        </button>
+        <nav id="nav-links" class="nav-links" aria-label="Navegación principal">
+          <a href="index.html">Inicio</a><a href="menu.html">Menú demo</a
+          ><a href="planes.html">Planes</a><a href="beta.html">Beta</a
+          ><a href="carrito.html"
+            >Carrito <span class="pill" id="cart-count">0</span></a
+          ><a id="my-account" class="btn btn-sm" href="login.html">Ingresar</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <div class="chip">✦ Innovación gastronómica desde Tarija</div>
+            <h1>
+              El menú que tus clientes pueden <em>ver antes de pedir.</em>
+            </h1>
+            <p class="hero-lead">
+              Transforma tu carta en una experiencia visual con códigos QR,
+              platos en 3D, realidad aumentada y pedidos preparados para
+              WhatsApp.
+            </p>
+            <div class="hero-ctas">
+              <a href="beta.html" class="btn">Solicitar acceso beta →</a
+              ><a href="menu.html" class="btn btn-secondary"
+                >Explorar menú demo ↗</a
+              >
+            </div>
+            <div class="mini-proof">
+              <span>Sin instalar aplicaciones</span
+              ><span>Planes accesibles</span
+              ><span>Diseñado para restaurantes</span>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <img
+              class="hero-food"
+              src="assets/img/burger.svg"
+              alt="Ilustración de una hamburguesa para la demostración 3D"
+            />
+            <div class="floating-note note-top">◈ Modelos de platos en 3D</div>
+            <div class="floating-note note-bottom">
+              ✓ Menú por QR + WhatsApp
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="feature-strip">
+        <div class="container strip-inner">
+          <span>⌗ CÓDIGOS QR</span><span>◈ EXPERIENCIA 3D</span
+          ><span>◎ REALIDAD AUMENTADA</span><span>◉ PEDIDOS POR WHATSAPP</span>
+        </div>
+      </div>
+      <section class="section" id="problema">
+        <div class="container">
+          <div class="center">
+            <p class="eyebrow">El problema</p>
+            <h2>Una carta convencional no siempre cuenta toda la historia</h2>
+            <p class="muted" style="max-width: 720px; margin: 0 auto 35px">
+              Los cambios de precio, las dudas sobre la presentación y la falta
+              de información dificultan la experiencia. Estas necesidades
+              deberán validarse con restaurantes y consumidores de Tarija.
+            </p>
+          </div>
+          <div class="grid grid-3">
+            <article class="card">
+              <div class="icon-tile">▤</div>
+              <h3>Cartas difíciles de actualizar</h3>
+              <p>
+                Modificar menús impresos o PDF requiere tiempo y puede generar
+                versiones desactualizadas.
+              </p>
+            </article>
+            <article class="card">
+              <div class="icon-tile">?</div>
+              <h3>Platos difíciles de imaginar</h3>
+              <p>
+                Una descripción o fotografía puede no ser suficiente para
+                conocer la presentación del plato.
+              </p>
+            </article>
+            <article class="card">
+              <div class="icon-tile">⌛</div>
+              <h3>Consultas y pedidos dispersos</h3>
+              <p>
+                Las preguntas repetidas y los mensajes no estructurados pueden
+                complicar la atención.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section dark-section" id="solucion">
+        <div class="container split">
+          <div>
+            <p class="eyebrow" style="color: #a6e0bc">
+              Nuestra propuesta de valor
+            </p>
+            <h2>Una experiencia moderna, sin hacer más difícil el trabajo.</h2>
+            <p class="muted">
+              MesaVista combina una carta fácil de administrar con herramientas
+              que sorprenden a los clientes y ayudan a organizar el servicio.
+            </p>
+            <ul>
+              <li>Menú actualizado desde un único panel.</li>
+              <li>Vista 3D y AR para platos seleccionados.</li>
+              <li>Carrito que prepara mensajes claros para WhatsApp.</li>
+              <li>
+                Control de disponibilidad y estados de pedidos en el prototipo.
+              </li>
+            </ul>
+            <a href="menu.html" class="btn btn-secondary"
+              >Probar el recorrido</a
+            >
+          </div>
+          <div class="mock-ui">
+            <div class="mock-header"></div>
+            <div class="pill">Menú interactivo · Sabor Local</div>
+            <div class="mock-row">
+              <img src="assets/img/burger.svg" alt="Hamburguesa" />
+              <div>
+                <strong>Hamburguesa clásica</strong>
+                <div class="mock-line"></div>
+                <div class="mock-line short"></div>
+                <span class="pill">◈ Disponible en 3D</span>
+              </div>
+            </div>
+            <div class="mock-row">
+              <img src="assets/img/pizza.svg" alt="Pizza" />
+              <div>
+                <strong>Pizza margarita</strong>
+                <div class="mock-line"></div>
+                <div class="mock-line short"></div>
+                <span class="pill">◈ Vista 3D + AR</span>
+              </div>
+            </div>
+            <div class="mock-row">
+              <img src="assets/img/cupcake.svg" alt="Cupcake" />
+              <div>
+                <strong>Cupcake vainilla</strong>
+                <div class="mock-line"></div>
+                <div class="mock-line short"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="publico">
+        <div class="container">
+          <p class="eyebrow center">¿Para quién es?</p>
+          <h2 class="center">Una plataforma para cada participante</h2>
+          <div class="grid grid-3" style="margin-top: 35px">
+            <article class="card">
+              <div class="icon-tile">▣</div>
+              <h3>Propietarios de restaurantes</h3>
+              <p>
+                Administran su carta, precios, disponibilidad y pedidos desde un
+                panel propio.
+              </p>
+            </article>
+            <article class="card">
+              <div class="icon-tile">☷</div>
+              <h3>Clientes finales</h3>
+              <p>
+                Exploran platos, ven modelos 3D, agregan al carrito y envían un
+                mensaje al restaurante.
+              </p>
+            </article>
+            <article class="card">
+              <div class="icon-tile">⚙</div>
+              <h3>Administrador SaaS</h3>
+              <p>
+                Gestiona restaurantes, acceso a planes e inscripciones a la
+                versión beta.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section" style="background: #f1f6ef" id="beneficios">
+        <div class="container split">
+          <div class="landing-preview">
+            <img
+              src="assets/img/pizza.svg"
+              alt="Ilustración de pizza como ejemplo del menú digital"
+              style="max-height: 360px; margin: auto"
+            />
+          </div>
+          <div>
+            <p class="eyebrow">Beneficios propuestos</p>
+            <h2>Menos complicaciones. Más claridad para tus clientes.</h2>
+            <div class="status-list">
+              <strong>✓ Simplicidad</strong
+              ><span class="muted">Una URL por QR, sin instalar una app.</span>
+            </div>
+            <div class="status-list">
+              <strong>✓ Ahorro de tiempo</strong
+              ><span class="muted"
+                >Cambios de precios y productos desde el panel.</span
+              >
+            </div>
+            <div class="status-list">
+              <strong>✓ Claridad</strong
+              ><span class="muted"
+                >Ingredientes, descripciones y modelos 3D.</span
+              >
+            </div>
+            <div class="status-list">
+              <strong>✓ Diferenciación</strong
+              ><span class="muted">Una experiencia visual poco habitual.</span>
+            </div>
+            <p class="notice" style="margin-top: 18px">
+              Estos beneficios son parte de la propuesta; su impacto real en
+              ventas y tiempos debe validarse con los pilotos académicos.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="prototipo">
+        <div class="container">
+          <p class="eyebrow center">Presentación del prototipo</p>
+          <h2 class="center">Así funciona MesaVista</h2>
+          <div class="grid grid-4" style="margin-top: 35px">
+            <article class="card center">
+              <div class="icon-tile" style="margin: 0 auto 15px">⌗</div>
+              <h3>1. Escanea el QR</h3>
+              <p>Entra al menú digital de la mesa.</p>
+            </article>
+            <article class="card center">
+              <div class="icon-tile" style="margin: 0 auto 15px">◈</div>
+              <h3>2. Explora en 3D</h3>
+              <p>Rota y observa el plato.</p>
+            </article>
+            <article class="card center">
+              <div class="icon-tile" style="margin: 0 auto 15px">＋</div>
+              <h3>3. Agrega al carrito</h3>
+              <p>Elige cantidades y notas.</p>
+            </article>
+            <article class="card center">
+              <div class="icon-tile" style="margin: 0 auto 15px">↗</div>
+              <h3>4. Usa WhatsApp</h3>
+              <p>Abre y envía el pedido al local.</p>
+            </article>
+          </div>
+          <p class="center" style="margin-top: 25px">
+            <a href="menu.html" class="btn"
+              >Entrar al prototipo interactivo →</a
+            >
+            <a href="login.html" class="btn btn-secondary"
+              >Explorar los tres paneles</a
+            >
+          </p>
+        </div>
+      </section>
+      <section class="section" id="planes">
+        <div class="container">
+          <p class="eyebrow center">Modelo comercial SaaS</p>
+          <h2 class="center">Planes pensados para crecer contigo</h2>
+          <p class="muted center">
+            Precios mensuales propuestos para validación académica; no se
+            realizan cobros.
+          </p>
+          <div
+            id="pricing-grid"
+            class="grid grid-3"
+            style="margin-top: 35px"
+          ></div>
+        </div>
+      </section>
+      <section class="section" id="inscripcion">
+        <div class="container">
+          <div class="center">
+            <p class="eyebrow">Convocatoria inicial</p>
+            <h2>Inscríbete para probar la beta</h2>
+            <p class="muted">
+              Buscamos restaurantes de Tarija interesados en evaluar el
+              prototipo y compartir sus opiniones.
+            </p>
+          </div>
+          <div class="form-card" style="margin-top: 28px">
+            <form id="beta-form" novalidate>
+              <div class="form-grid">
+                <div class="field">
+                  <label for="beta-name">Nombre y apellido *</label
+                  ><input
+                    id="beta-name"
+                    placeholder="Ej. Carla Méndez"
+                    autocomplete="name"
+                  />
+                  <div class="error"></div>
+                </div>
+                <div class="field">
+                  <label for="beta-business">Nombre del restaurante *</label
+                  ><input id="beta-business" placeholder="Ej. Sabor Local" />
+                  <div class="error"></div>
+                </div>
+                <div class="field">
+                  <label for="beta-email">Correo electrónico *</label
+                  ><input
+                    id="beta-email"
+                    type="email"
+                    placeholder="tu@restaurante.com"
+                    autocomplete="email"
+                  />
+                  <div class="error"></div>
+                </div>
+                <div class="field">
+                  <label for="beta-phone">Teléfono (8 dígitos) *</label
+                  ><input
+                    id="beta-phone"
+                    type="tel"
+                    inputmode="numeric"
+                    placeholder="70000000"
+                    maxlength="12"
+                  />
+                  <div class="error"></div>
+                </div>
+                <div class="field">
+                  <label for="beta-city">Ciudad *</label
+                  ><input id="beta-city" value="Tarija" placeholder="Tarija" />
+                  <div class="error"></div>
+                </div>
+                <div class="field">
+                  <label for="beta-type">Tipo de negocio *</label
+                  ><select id="beta-type">
+                    <option value="">Selecciona una opción</option>
+                    <option>Restaurante</option>
+                    <option>Hamburguesería</option>
+                    <option>Pizzería</option>
+                    <option>Cafetería</option>
+                    <option>Otro</option>
+                  </select>
+                  <div class="error"></div>
+                </div>
+              </div>
+              <div class="field">
+                <label for="beta-plan">Plan de interés</label
+                ><select id="beta-plan">
+                  <option value="Básico">Básico — Bs 99/mes</option>
+                  <option value="Profesional" selected>
+                    Profesional — Bs 199/mes
+                  </option>
+                  <option value="Premium">Premium — Bs 349/mes (futuro)</option>
+                </select>
+              </div>
+              <label class="checkline"
+                ><input type="checkbox" id="beta-agree" required /><span
+                  >Autorizo el uso de mis datos para gestionar mi solicitud de
+                  beta y acepto las
+                  <a class="link" href="ayuda.html#privacidad"
+                    >condiciones de privacidad</a
+                  >. *</span
+                ></label
+              >
+              <div id="beta-result" class="alert" role="status" hidden></div>
+              <button id="beta-submit" class="btn btn-block" type="submit">
+                Quiero probar la beta →
+              </button>
+              <p class="muted small center" style="margin-top: 13px">
+                Sin pagos ni obligación de contratar. Si no configuras Supabase,
+                la inscripción se guarda solo en este navegador.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-inner">
+          <div>
+            <a class="brand" href="index.html"
+              ><span class="brand-logo">✦</span> MesaVista</a
+            >
+            <p class="small" style="max-width: 380px; margin-top: 10px">
+              Menús digitales, modelos 3D y realidad aumentada para
+              restaurantes. Proyecto académico y demostración funcional.
+            </p>
+          </div>
+          <nav class="footer-links">
+            <a href="menu.html">Menú demo</a
+            ><a href="beta.html">Inscripción beta</a
+            ><a href="planes.html">Planes</a
+            ><a href="ayuda.html">Ayuda y privacidad</a>
+          </nav>
+        </div>
+        <div class="copyright">
+          © <span id="year">2026</span> MesaVista · Tarija, Bolivia · Prototipo
+          académico, sin cobros reales.
+        </div>
+      </div>
+    </footer>
+    <div id="app-toast" class="toast hidden" role="status"></div>
+  </body>
+</html>
